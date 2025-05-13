@@ -104,7 +104,7 @@ with st.sidebar:
 # Caricamento del modello YOLO
 @st.cache_resource
 def load_model():
-    return YOLO("yolo11m-pose.pt")
+    return YOLO("yolo11n-pose.pt")
 
 model = load_model()
 
