@@ -78,7 +78,7 @@ with st.sidebar:
     st.header("Configurazione Feed 2")
     username2 = st.text_input("Username Feed 2", value="admin")
     password2 = st.text_input("Password Feed 2", value="Admin123", type="password")
-    SNAPSHOT_URL2 = st.text_input("URL Snapshot Feed 2", value="http://192.168.1.103/cgi-bin/snapshot.cgi?Channel=1")
+    SNAPSHOT_URL2 = st.text_input("URL Snapshot Feed 2", value="http://192.168.11.251/cgi-bin/snapshot.cgi?Channel=1")
 
     st.header("Configurazione Feed 3")
     username3 = st.text_input("Username Feed 3", value="admin")
